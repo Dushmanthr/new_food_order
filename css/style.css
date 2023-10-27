@@ -1,0 +1,370 @@
+
+body{
+    background-image:linear-gradient(white,white);
+   /*  height: 500px; */
+}
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+  
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #c9c47c;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #c9c47c;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color:#AC7118;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    color: white;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.error{
+    padding:2%;
+    color:red;
+}
+
+.success{
+    padding:2%;
+    color: green;
+}
+
+
+/* CSSS for navbar section */
+
+.containernavbar{overflow: hidden;
+  overflow: hidden;
+  background-color: #AC7118;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  margin: 0 auto;
+  padding: 1%;
+  z-index: 999;
+  
+}
+
+.logo{
+    width: 6%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+    
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    color:white;
+}
+
+/* CSS for Food SEarch Section */
+
+.containerbar{
+   width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+
+}
+.carousel {
+  position: relative;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  width: auto;
+  height: 100vh;
+}
+
+.containersearch{
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  bottom: 50%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.food-search{
+  position: relative;
+  background-image: url(../images/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30vh;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #c9c47c;
+    padding: 4% 0;
+    padding-left: 10%;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+   color: white;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+/* Reset some default styles for the page */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center-align social media icons */
+.social {
+    text-align: center; /* Center-align the content */
+    padding: 20px 0;
+    color:black;
+}
+
+.social ul {
+    list-style: none;
+    display: inline; /* Display list items inline */
+}
+
+.social li {
+    display: inline-block; /* Display list items as blocks within inline container */
+    margin: 0 15px; /* Add spacing between list items */
+}
+
+.social li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+.social li a:hover{
+    color: #c9c47c;
+}
+
+
+.social li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* Center-align footer text */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* for Order Section */
+/* Apply background color to the entire order page */
+body {
+    background-color: #89888d; /* Choose your desired background color */
+}
+
+/* Center the order container */
+.order {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #838655; /* Add a background color to the container */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(244, 246, 247, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the responsive input fields */
+.input-responsive {
+    width: 100%; /* Adjust the width to fill the container */
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Style the label for input fields */
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
